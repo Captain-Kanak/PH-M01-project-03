@@ -1,0 +1,99 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+/* Import Common CSS File */
+@import url("../styles/common.css");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Inter", serif;
+}
+
+/* Header Styles */
+header {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+header img {
+  width: 1320px;
+  height: 600px;
+}
+
+/* Main Styles */
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+/* Offer Styles */
+#offer {
+  text-align: center;
+}
+#offer h1 {
+  font-size: 88px;
+  font-weight: 700;
+}
+#offer h6 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 48px 0 16px 0;
+}
+#offer h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+/* Welcome Styles */
+#welcome {
+  height: 600px;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  padding: 67px 138px 67px 0;
+}
+.welcome-content {
+  padding: 67px 0 0 126px;
+  opacity: 100%;
+}
+#welcome h1 {
+  font-size: 64px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  line-height: 88px;
+  margin-bottom: 24px;
+  opacity: 100%;
+}
+#welcome p {
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+#welcome a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding-left: 32px;
+}
+#welcome img {
+  top: 67px;
+  bottom: 67px;
+  right: 120px;
+}
+
+/* Footer Styles */
+footer {
+  height: 600px;
+}
