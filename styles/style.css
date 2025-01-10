@@ -13,11 +13,29 @@
 /* Header Styles */
 header {
   max-width: 1320px;
-  margin: 0 auto;
-}
-header img {
-  width: 1320px;
   height: 600px;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("../images/Banner Image.png");
+  margin: 0 auto;
+  text-align: center;
+  padding: 170px 340px;
+}
+header h3 {
+  font-size: 32px;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+header h1 {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  line-height: 85px;
 }
 
 /* Main Styles */
@@ -60,6 +78,7 @@ main {
   justify-content: space-between;
   margin-top: 120px;
   padding: 67px 138px 67px 0;
+  border-radius: 20px;
 }
 .welcome-content {
   padding: 67px 0 0 126px;
@@ -79,6 +98,7 @@ main {
   line-height: 30px;
   color: #ffffff;
   margin-bottom: 48px;
+  opacity: 80%;
 }
 #welcome a {
   text-decoration: none;
@@ -86,11 +106,131 @@ main {
   font-size: 20px;
   font-weight: 700;
   padding-left: 32px;
+  text-transform: uppercase;
 }
 #welcome img {
   top: 67px;
   bottom: 67px;
   right: 120px;
+}
+
+/* Location Styles */
+#location {
+  margin-top: 120px;
+  text-align: center;
+  width: 100%;
+  height: 482px;
+  background-image: linear-gradient(to bottom, #d180b5, #ffffff);
+  border-radius: 20px;
+  padding: 100px 380px;
+}
+#location h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#location button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 48px;
+  text-transform: uppercase;
+}
+
+/* Coming Soon Styles */
+#coming-soon {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+#coming-soon .main-img {
+  width: 463px;
+  height: 463px;
+  border: 15px solid #ff0000;
+  border-radius: 50%;
+  padding: 30px;
+}
+#coming-soon .div-1 {
+  padding: 100px 40px 0 0;
+}
+#coming-soon .div-1 h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+#coming-soon .div-1 h2 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin: 16px 0 22px 0;
+}
+#coming-soon .div-1 p {
+  font-size: 20px;
+  color: #070211;
+  opacity: 60%;
+  line-height: 32px;
+  padding-right: 10px;
+}
+#coming-soon .div-2 {
+  padding: 100px 0 0 80px;
+}
+#coming-soon .div-2 h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+#coming-soon .div-2 p {
+  font-size: 20px;
+  line-height: 32px;
+  color: #070211;
+  opacity: 60%;
+  margin-top: 16px;
+  margin-bottom: 43px;
+}
+
+/* Discount Styles */
+#discount {
+  margin-top: 120px;
+  text-align: center;
+  height: 870px;
+  position: relative;
+}
+#discount h5 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+}
+#discount h1 {
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  color: #070211;
+  margin: 10px 0 20px 0;
+}
+#discount p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #070211;
+  opacity: 60%;
+  padding: 0 225px;
+}
+.discount-img-1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.discount-img-2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.discount-img-3 {
+  position: absolute;
+  bottom: 300px;
+  right: 15px;
 }
 
 /* Footer Styles */
